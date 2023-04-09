@@ -1,0 +1,99 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+.wp-block-meloniq-products-slider-block {
+	background-color: transparent;
+	display: block;
+	padding: 10px;
+}
+
+.wp-block-meloniq-products-slider-block .products-slider-wrapper {
+	display: block;
+}
+
+.wp-block-meloniq-products-slider-block ul.products-slider {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-meloniq-products-slider-block li.product {
+	display: block;
+}
+
+.wp-block-meloniq-products-slider-block .psb-slider-product-item-wrapper {
+	background-color: transparent;
+}
+
+.wp-block-meloniq-products-slider-block .psb-slider-product-item-thumbnail-wrap {
+	margin: 0 auto;
+	position: relative;
+}
+
+.wp-block-meloniq-products-slider-block .psb-slider-product-item-thumbnail-wrap img {
+	width: 100%;
+}
+
+.wp-block-meloniq-products-slider-block .price {
+	display: block;
+	font-size: 0.85em;
+	font-weight: 700;
+	line-height: 1.3;
+	margin: 0.5em auto;
+}
+
+.wp-block-meloniq-products-slider-block .order_now_button {
+	border-radius: 9999px;
+	display: inline-block;
+	font-size: 100%;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-decoration: none !important;
+	white-space: normal;
+}
+
+/* Slick */
+.wp-block-meloniq-products-slider-block .slick-prev {
+	left: -40px;
+}
+
+.wp-block-meloniq-products-slider-block .slick-prev::before {
+	content: "<";
+	font-family: monospace;
+}
+
+.wp-block-meloniq-products-slider-block .slick-next {
+	right: -40px;
+}
+
+.wp-block-meloniq-products-slider-block .slick-next::before {
+	content: ">";
+	font-family: monospace;
+}
+
+.wp-block-meloniq-products-slider-block .slick-arrow {
+	font-size: 30px;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.5;
+	position: absolute;
+	top: 50%;
+	display: block;
+	padding: 0;
+	-webkit-transform: translateY(-50%) translate3d(0, 0, 0);
+	-ms-transform: translateY(-50%) translate3d(0, 0, 0);
+	transform: translateY(-50%) translate3d(0, 0, 0);
+	cursor: pointer;
+	color: #c4c4c4;
+	background: 0 0;
+	border: none;
+	outline: 0;
+}
+
+.wp-block-meloniq-products-slider-block .slick-active {
+	opacity: 1;
+}

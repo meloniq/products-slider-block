@@ -1,0 +1,24 @@
+{
+	"name": "products-slider-block",
+	"version": "1.0.0",
+	"description": "Products slider block for WooCommerce.",
+	"author": "meloniq",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format ./src",
+		"lint:css": "wp-scripts lint-style ./src/*.scss",
+		"lint:js": "wp-scripts lint-js ./src",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^25.3.0",
+		"react-slick": "^0.29.0"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	}
+}

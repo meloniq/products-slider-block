@@ -1,0 +1,114 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "meloniq/products-slider-block",
+	"version": "1.0.0",
+	"title": "Products Slider Block for WooCommerce",
+	"category": "media",
+	"icon": "embed-photo",
+	"description": "Display multiple products in a slider.",
+	"supports": {
+		"html": true
+	},
+	"textdomain": "products-slider-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"numberOfItems": {
+			"type": "number",
+			"default": 9
+		},
+		"categoryId": {
+			"type": "number",
+			"default": 0
+		},
+		"slidesToShowDesktop": {
+			"type": "number",
+			"default": 4
+		},
+		"slidesToShowTablet": {
+			"type": "number",
+			"default": 2
+		},
+		"slidesToShowMobile": {
+			"type": "number",
+			"default": 1
+		},
+		"slidesAutoplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"slidesAutoplaySpeed": {
+			"type": "number",
+			"default": 5
+		},
+		"slidesPauseOnHover": {
+			"type": "boolean",
+			"default": true
+		},
+		"slidesInfinite": {
+			"type": "boolean",
+			"default": true
+		},
+		"slidesToScrollDesktop": {
+			"type": "number",
+			"default": 1
+		},
+		"slidesAnimationSpeed": {
+			"type": "number",
+			"default": 7
+		},
+		"itemsOrderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"itemsOrder": {
+			"type": "string",
+			"default": "desc"
+		},
+		"itemsExclude": {
+			"type": "array",
+			"default": []
+		},
+		"buttonColor": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonColorHover": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonColorFont": {
+			"type": "string",
+			"default": ""
+		},
+		"paddingSize": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"bottom": "0px",
+				"left": "5px",
+				"right": "5px"
+			}
+		},
+		"marginSize": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"bottom": "0px",
+				"left": "5px",
+				"right": "5px"
+			}
+		},
+		"paddingSizeButton": {
+			"type": "object",
+			"default": {
+				"top": "15px",
+				"bottom": "15px",
+				"left": "30px",
+				"right": "30px"
+			}
+		}
+	}
+}

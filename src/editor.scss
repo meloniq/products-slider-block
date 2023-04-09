@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+@import "../assets/slick.css";
+
+.editor-styles-wrapper .wp-block-meloniq-products-slider-block .order_now_button {
+	background: #046bd2;
+	border-color: #046bd2;
+	color: #fff;
+	border-radius: 9999px;
+	text-decoration: none;
+}
+
+.editor-styles-wrapper .wp-block-meloniq-products-slider-block .slick-arrow {
+	display: none;
+}
+
+/* fixes display of slider in editor when inside of Stackable columns */
+.editor-styles-wrapper .stk-block.stk-block-column .stk-column-wrapper {
+	width: 100% !important;
+}
