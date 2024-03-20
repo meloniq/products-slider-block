@@ -15,7 +15,7 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^26.1.0",
+		"@wordpress/scripts": "^27.4.0",
 		"react-slick": "^0.29.0"
 	},
 	"dependencies": {
