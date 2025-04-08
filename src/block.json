@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "meloniq/products-slider-block",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"title": "Products Slider Block for WooCommerce",
 	"category": "media",
 	"icon": "embed-photo",

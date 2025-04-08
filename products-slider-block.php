@@ -6,7 +6,7 @@
  *
  * Requires at least: 6.1
  * Requires PHP:      7.4
- * Version:           1.0
+ * Version:           1.1
  *
  * Author:            MELONIQ.NET
  * Author URI:        https://blog.meloniq.net
@@ -283,7 +283,7 @@ function psb_block_rest_register_fields() {
 	register_rest_field( 'product', 'product_price_html', array(
 		'get_callback' => 'psb_block_get_product_price_html',
 		'schema' => array(
-			'description' => __( 'Product Price HTML.', 'healy-ps-block' ),
+			'description' => __( 'Product Price HTML.', 'products-slider-block' ),
 			'type'        => 'string'
 		),
 	) );
